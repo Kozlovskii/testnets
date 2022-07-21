@@ -100,9 +100,6 @@ To check your wallet balance:
 ```
 seid query bank balances $SEI_WALLET_ADDRESS
 ```
-> If your wallet does not show any balance than probably your node is still syncing. Please wait until it finish to synchronize and then continue 
-To create your validator run command below
-```
 seid tx staking create-validator \
   --amount 1000000usei \
   --from $WALLET \
